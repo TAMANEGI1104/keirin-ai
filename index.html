@@ -10,10 +10,7 @@
     <div id="app">
         <label>日付: <input type="date" id="date"></label>
         <label>開催場:
-            <select id="venue">
-                <option value="富山">富山</option>
-                <option value="松戸">松戸</option>
-            </select>
+            <select id="venue"></select>
         </label>
         <label>レース: 
             <select id="race">
@@ -32,7 +29,6 @@
             </select>
         </label>
         <button onclick="predict()">予測する</button>
-
         <div id="result" style="margin-top:20px;"></div>
     </div>
     <script src="main.js"></script>
