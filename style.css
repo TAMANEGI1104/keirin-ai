@@ -1,0 +1,49 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    font-size: 18px;
+}
+
+#app {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+select, input[type="date"] {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
